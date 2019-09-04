@@ -1,0 +1,92 @@
+body{
+    box-sizing: border-box;
+    font-family: Roboto;
+    margin:300px 600px;
+}
+
+.card{
+    padding:17px 0px ;
+    width:345px;
+    height: 414px;
+    background-image: url("Shrimp and Chorizo Paella.jpg");
+    background-size: 345px 190px;
+    background-position: 0px 75px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    /*box-shadow: 0px 1px 1px 1px;*/
+}
+
+/*.card:hover{*/
+/*    transform: translateY(-5px);*/
+/*}*/
+
+.R{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size:20px;
+    color: white;
+    margin-left: 16px;
+    /*margin-right: 5px;*/
+    height: 32px;
+    width: 30px;
+    background-color: #e3513e;
+    border-radius: 70%;
+    padding:4px 5px;
+    /*float: left;*/
+
+}
+/*.title{*/
+/*    padding: 17px 10px 10px 1px;*/
+/*}*/
+
+.card_icon{
+    margin-top: 7px;
+    margin-right: 28px;
+    color: #757575;
+    float:right;
+}
+
+.line1{
+    font-size: 14px;
+    /*margin-top:1px;*/
+    padding-left: 70px;
+    color: black;
+}
+
+.line2{
+     font-size: 14px;
+     /*margin-top:1px;*/
+     margin-left: 70px;
+     color: #757575;
+}
+
+.last_line{
+    padding:3px 4px;
+    font-size: 14px;
+    margin-top:219px;
+    margin-left: 10px;
+    color: #757575;
+}
+
+.heart{
+    float: left;
+    margin-top: 47px;
+    margin-left: 21px;
+}
+
+.share{
+    float: left;
+    margin-top: 47px;
+    margin-left: 27px;
+}
+
+.down{
+    margin-top: 47px;
+    margin-left: 305px;
+}
+
+
+
